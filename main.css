@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+body {
+    overflow: hidden;
+}
+
+form {
+    padding: 50px 35px;
+    height: 750px;
+    width: 430px;
+    background-color: rgba(255, 255, 255, 0.07);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px; /* Adiciona um raio de borda de 10 pixels, arredondando os cantos do formulário */
+    backdrop-filter: blur(10px); /* efeito de desfoque */
+    border: 2px solid rgba(255, 255, 255, 0.1);/* adiciona uma linha em volta da borta do formulario */
+}
+
+form * {
+    color: #fff;
+    letter-spacing: 0.5px; /*  controla o espaçamento entre caracteres */
+    outline: none; /* remover o contorno padrão que alguns navegadores aplicam quando um elemento é focado */
+    border: none;
+}
+
+form h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #fff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}

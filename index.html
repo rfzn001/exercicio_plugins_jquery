@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Plugin jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+    <header></header>
+        <form>
+            <h3>Cadastro</h3>
+            <label for="name">Seu nome completo</label>
+            <input type="text" name="nome" required id="nome">
+            <label for="nome">Seu e-mail</label>
+            <input type="text" name="email" required id="email">
+            <label for="nome">Seu telefone</label>
+            <input type="text" name="telefone" required id="telefone" maxlength="11">
+            <label for="nome">Seu CPF</label>
+            <input type="text" name="cpf" required id="cpf" maxlength="11">
+            <label for="nome">Seu endereço completo</label>
+            <input type="text" name="endereco" id="endereco">
+            <label for="nome">Seu cep</label>
+            <input type="text" name="cep" id="cep" maxlength="8">
+            <button type="submit">Enviar</button>
+        </form>
+    </header>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
